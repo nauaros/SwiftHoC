@@ -8,18 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController, UINavigationControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        imageView.isUserInteractionEnabled = true
+//        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(seleccionarFoto))
+//        imageView.addGestureRecognizer(tapGestureRecognizer)
+//        imageView.layer.masksToBounds = true
+//        imageView.layer.cornerRadius = 149.5
+//        imageView.layer.borderWidth = 3.0
+//        imageView.layer.borderColor = UIColor.white.cgColor
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 
