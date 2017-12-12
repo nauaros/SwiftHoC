@@ -6,6 +6,8 @@
 //  Copyright © 2017 Naufal Aros. All rights reserved.
 //
 
+// TODO: https://developer.apple.com/machine-learning/
+
 import UIKit
 
 
