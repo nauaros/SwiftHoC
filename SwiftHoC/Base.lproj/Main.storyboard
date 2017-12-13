@@ -48,11 +48,21 @@
                     <navigationItem key="navigationItem" title="SwiftHoC" id="y0H-zP-xsM">
                         <barButtonItem key="leftBarButtonItem" title="Fotos" style="done" id="VY6-3h-Q3w">
                             <color key="tintColor" red="0.26663362979999999" green="0.26668566469999999" blue="0.26663035149999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="seleccionarFoto:" destination="BYZ-38-t0r" id="q6g-SK-w4g"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="6oy-gV-8uh">
                             <color key="tintColor" red="0.26663362979888916" green="0.26668566465377808" blue="0.26663035154342651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tomarFoto:" destination="BYZ-38-t0r" id="j9T-pF-1qg"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="descripcion" destination="Tyw-7V-xhe" id="ZGH-7X-14p"/>
+                        <outlet property="imageView" destination="j9H-HK-ro3" id="ZtP-iK-OEX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

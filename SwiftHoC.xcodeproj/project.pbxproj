@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94763791FE149080010EFA6 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C94763781FE149080010EFA6 /* Inceptionv3.mlmodel */; };
 		C9C48BB31FDF186F00194498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C48BB21FDF186F00194498 /* AppDelegate.swift */; };
 		C9C48BB51FDF186F00194498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C48BB41FDF186F00194498 /* ViewController.swift */; };
 		C9C48BB81FDF186F00194498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C48BB61FDF186F00194498 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94763781FE149080010EFA6 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		C9C48BAF1FDF186F00194498 /* SwiftHoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C48BB21FDF186F00194498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C48BB41FDF186F00194498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				C9C48BB21FDF186F00194498 /* AppDelegate.swift */,
 				C9C48BB41FDF186F00194498 /* ViewController.swift */,
 				C9C48BB61FDF186F00194498 /* Main.storyboard */,
+				C94763781FE149080010EFA6 /* Inceptionv3.mlmodel */,
 				C9C48BB91FDF186F00194498 /* Assets.xcassets */,
 				C9C48BBB1FDF186F00194498 /* LaunchScreen.storyboard */,
 				C9C48BBE1FDF186F00194498 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C48BB51FDF186F00194498 /* ViewController.swift in Sources */,
+				C94763791FE149080010EFA6 /* Inceptionv3.mlmodel in Sources */,
 				C9C48BB31FDF186F00194498 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
